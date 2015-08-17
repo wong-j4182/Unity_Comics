@@ -1,0 +1,64 @@
+<?php include('showTables.php');
+	session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unity Comics</title>
+	<link href='css/bootstrap.css' type='text/css' rel='stylesheet'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src='js/bootstrap.js' type='text/javascript'></script>
+	
+	<meta charset='utf-8' />
+	<meta name='author' content='Jeffrey Wong'>
+	<meta name='description' content="A website to shop and browse all your favorite pop culture comics, graphic novels, movies, and more. 
+	From The Avengers to the Justice League, you'll find exactly what you're looking for." />
+	<meta name='keywords' content='superheroes, DC comics, Marvel, Superman, Batman, The Avengers, The Walking Dead' />
+
+</head>
+
+<body>
+	<div class='container'>	
+		
+		<!--Dropdown menu-->
+		<?php include_once("nav_bar.php")?>
+		
+		
+		<!--Left Section-->
+		<?php include_once("side_bar.html")?>
+		
+		<!--Main Content-->
+		<div class="col-sm-6 background">
+			<h2>Contact Us</h2><br />
+			<p>Have a question you want to ask about a certain comic? Maybe you want to ask about if we have a certain product in stock. Feel free to contact us through email 
+			or you can even call the store.</p><br />
+			<p>By Email:
+				<ul><li><a href="mailto:jwong@plymouth.edu">Primary Contact Email</a></li>
+				<li><a href="mailto:chillpill303@yahoo.com">Secondary Contact Email</a></li></ul></p>
+			<p>By Phone:
+				<ul><li>(603)555-5555</li></ul></p>
+		</div>
+	
+		<!--Right Section-->
+		<div class="col-md-3">
+			<script type="text/javascript" src="http://output52.rssinclude.com/output?type=js&amp;id=933966&amp;hash=52d3039a386e1134435c6bfd4972eaeb"></script>
+		</div>
+	</div>
+	
+	<!--Footer-->
+	<div class="container">
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12 background">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

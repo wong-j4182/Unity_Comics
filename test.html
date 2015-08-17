@@ -1,0 +1,147 @@
+<div id='contentbackground'>
+		<?php include('menu.html') ?>
+		  
+		  <table cellpadding="3" cellspacing="1" id='tablebody'>
+			<tr>
+			<!--Sidebar--> 				
+			  <td id='leftsidebar'>
+				
+				<div>
+				  <table>
+					<tr>
+					  <td>
+						<p align="center"><font color="#FFFFFF"><b>Products</b></font></td>
+					</tr>
+					<tr>
+					  <td><a href='http://turing.plymouth.edu/~jwong/Webstore/Webstore.html'>Home</a></td>
+					</tr>
+					<tr>
+					  <td>
+						<a href='http://turing.plymouth.edu/~jwong/Webstore/ComicBooks.html'>Comic Books</a></td>
+					</tr>
+					<tr>
+					  <td>
+						<a href='http://turing.plymouth.edu/~jwong/Webstore/GraphicNovels.html'>Graphic Novels</a></td>
+					</tr>
+					<tr>
+					  <td>
+						<a href='http://turing.plymouth.edu/~jwong/Webstore/Movies.html'>Movies</a></td>
+					</tr>
+					<tr>
+					  <td>Characters</td>
+					</tr>
+					<tr>
+					  <td>Posters</td>
+					</tr>
+					<tr>
+					  <td>Video Games</td>
+					</tr>
+					<tr>
+					  <td>T-shirts</td>
+					</tr>
+				  </table>
+				</div>
+
+				<div>
+				  <table>
+					<tr>
+					  <td>
+						<p align="center"><font color="#FFFFFF"><b>Customer Help</b></font></td>
+					</tr>
+					<tr>
+					  <td><a href='http://turing.plymouth.edu/~jwong/Webstore/AboutUs.html'>About Us</a></td>
+					</tr>
+					<tr>
+					  <td>FAQ</td>
+					</tr>
+					<tr>
+					  <td>Email us</td>
+					</tr>
+					<tr>
+					  <td>Support</td>
+					</tr>
+				  </table>
+				</div>
+				
+				<div id='comiclogo'>
+					<img src='DCcomics.jpg' alt='DC Comics'><br />
+					<img src='MarvelComics.jpg' alt='Marvel Comics'>
+				</div>
+			  </td>
+			
+			<!-- Main Content -->
+			<td>
+			  <p id='welcome'>Welcome to Pop! Comics!</p>
+				<div id='search'>
+					<form>
+					 Search: 
+					 <input type='search' name='sitesearch' size='60'>
+					 <input class="btn btn-lg btn-primary" type="submit" value="Submit">
+					</form>
+				</div>
+
+			  <p align="left"></p>
+			  <?php
+				display_GN_table("GraphicNovels", $global_dbh);
+				mysql_close($global_dbh);
+			  ?>
+			  <!--<div align="center">
+				<table border="1" cellpadding="3" cellspacing="1" width="486" height="384">
+				  <tr>
+					<td>
+						<img src='thor.jpg' alt='Thor'>
+					</td>
+					<td>
+						<img src='guardians.jpg' alt='Guardians of the Galaxy'>
+					</td>
+				  </tr>
+				  <tr>
+					<td>
+					  <img src='ironman.jpg' alt='Iron Man'>
+					</td>
+					<td>
+						
+					</td>
+				  </tr>
+				  <tr>
+					<td>
+						<img src='fury.jpg' alt='Nick Fury'>
+					</td>
+					<td>
+					</td>
+				  </tr>
+				  <tr>
+					<td>
+					</td>
+					<td>
+						<img src='thor.jpg' alt='Thor'>
+					</td>
+				  </tr>
+				</table>
+			  </div>
+			  -->
+			  
+			  <p>This section will have some more products that I will add as I go</p>
+			</td>
+			
+			<!--Right sidebar -->
+			  <td id='rightsidebar'>
+				<table>
+					<tr>
+					 <div  id='rss'>
+					  <script type="text/javascript" src="http://output52.rssinclude.com/output?type=js&amp;id=933966&amp;hash=52d3039a386e1134435c6bfd4972eaeb"></script>
+					 </div>
+					</tr>
+				</table>
+			  </td>
+			</tr>
+			
+			<tr>
+			  <td width="759" height="4" colspan="3" bgcolor="#70B4D3">
+				<p align="center"><b>I will put some general information and contact info on this page</b></td>
+			</tr>
+
+		  </table>
+		</div>
+		
+	

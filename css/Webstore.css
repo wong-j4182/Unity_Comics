@@ -1,0 +1,184 @@
+#background{
+	background-image: url('sitebackground.jpg');
+}
+#contentbackground{
+	background-color: LightSlateGray;
+}
+#banner{
+	border-color: gray;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px; 
+	vertical-align: top;
+	color: #000080;
+	background-color: #70B4D3;
+	font-family: Arial;
+	padding-bottom: 5px;
+	border: 5px groove gray;
+}
+#search{
+	padding: 0px;
+	width: 500px;
+
+}
+#begin{
+	padding: 0px 5px 5px;
+	width: 300px;
+}
+#title{
+	width: 100;
+	vertical-align: top;
+	text-align: center;
+	color: #000080;
+	margin-left: auto;
+	margin-right: auto;
+}
+#body{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+}
+nav{
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	border: 1px solid black;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	list-style: none;
+	font-size: 25px;
+	float: left;
+	text-align: center;
+}
+nav li a{
+	display: block;
+	margin-right: 0px;
+	width: 7em;
+	padding: 2px;
+	font-weight: bold;
+	line-height: 1.50em;
+	border: 1px solid black;
+	border-top: none;
+}
+nav li:hover > a{
+	color: LightGray;
+	background: #70B4D3;
+}
+nav li ul{
+	display: none;
+	text-align: center;
+	margin: 0;
+	padding: 0 1em;
+	background-color: white;
+}
+nav li:hover ul, nav li.hover ul {
+	display: block;
+	position: absolute;
+	padding: 0;
+}
+nav li:hover li, nav li.hover li { 
+	float: none; 
+}
+nav li:hover li a, nav li.hover li a {
+	width: 9em;
+	margin-top: 0;
+}
+nav li li a:hover {
+	background:#70B4D3;
+	color: black;
+}
+nav:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#tablebody{
+	width: 1000px;
+	border: 5px groove LightSlateGray;
+	
+}
+#tablebody td{
+	border: 2px solid black;
+
+}
+#aboutus{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+#aboutus h2{
+	font-size: 24pt; 
+	text-align: center;
+}
+#leftsidebar{
+	display: table;
+	padding: 1px;
+	border: 0px;  
+	width: 150px;
+}
+#leftsidebar div{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	border-spacing: 1px;
+	border-color: gray;
+}
+#leftsidebar table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+}
+#leftsidebar td{
+	width: 125px; 
+	background-color: #2E7595;
+}
+#comiclogo{
+	padding: 2px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#rightsidebar{
+	width: 200px;
+}
+#rss{
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	float: top;
+}
+#welcome{
+	text-align: center;
+	font-size: 32px;
+	font-family: Arial;
+	font-weight: bold;
+}
+fieldset strong,
+fieldset label.left,
+fieldset .column {
+	float: left;
+	width: 11em;
+}
+.sidebarTitle{
+	border: 0px;
+	width: 135px;
+	padding: 3px;
+	border-spacing: 1px;
+}
+#listing{
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+}
